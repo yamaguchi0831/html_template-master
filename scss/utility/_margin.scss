@@ -1,0 +1,29 @@
+$ten-times: "";
+
+@for $i from 1 through 10 {
+  $ten-times : $i * 10;
+  .mb#{$ten-times} {
+    margin-bottom: $ten-times;
+  }
+}
+
+@for $i from 1 through 10 {
+  $ten-times : $i * 10;
+  .mt#{$ten-times} {
+    margin-top: $ten-times;
+  }
+}
+
+@for $i from 1 through 10 {
+  $ten-times : $i * 10;
+  .ml#{$ten-times} {
+    margin-left: $ten-times;
+  }
+}
+
+@for $i from 1 through 10 {
+  $ten-times : $i * 10;
+  .mr#{$ten-times} {
+    margin-right: $ten-times;
+  }
+}
